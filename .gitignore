@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/*
+!data/README.md
+
+# Trained models
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.weights.h5
+*.pkl
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Environment variables
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
